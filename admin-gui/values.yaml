@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: docker-private.do.neoflex.ru/neofoundation/admin-gui
+  repository: zanzibeer/admin-gui
   pullPolicy: Always
   tag: "dev"
 
