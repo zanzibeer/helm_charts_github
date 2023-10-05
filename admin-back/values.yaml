@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: zanzibeer/printform_adminback
+  repository: zanzibeer/admin-back
   pullPolicy: Always
   tag: "dev"
 
