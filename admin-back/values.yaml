@@ -16,8 +16,8 @@ nameOverride: ""
 fullnameOverride: ""
 
 service:
-  type: NodePort
-#  type: ClusterIP
+#  type: NodePort
+  type: ClusterIP
   nodePort: 30800
   port: 8080
 
