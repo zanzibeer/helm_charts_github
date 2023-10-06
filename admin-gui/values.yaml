@@ -23,7 +23,9 @@ service:
 
 configMap:
   LOGGING_FLUENTD_HOST: fluentd-aggregator.logging.svc
-  spring_r2dbc_url: "r2dbc:postgresql://postgres-db.default:5432/neofoundation_printingforms"
+  SPRING_R2DBC_URL: "r2dbc:postgresql://postgres-db.default:5432/neofoundation_printingforms"
+  SPRING_R2DBC_USERNAME: postgres
+  SPRING_R2DBC_PASSWORD: postgres
 
 probes:
   enabled: false
